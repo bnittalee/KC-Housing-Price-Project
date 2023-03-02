@@ -1,5 +1,5 @@
 ## King County Housing Prices: A Multiple Regressions Analsis
-<img src="https://github.com/AvonleaFisher/Predicting-King-County-House-Prices-with-Multiple-Regression-Analysis/blob/master/correlates_with_price.png">">
+<img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/stephen-plopper-UmEYn_GYqFo-unsplash.jpg" width="1000" height="400">
 <b>Author:</b> Brittney Nitta-Lee 
 
 ### Overview
