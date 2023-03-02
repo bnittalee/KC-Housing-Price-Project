@@ -18,7 +18,7 @@ Methods included preprocessing the data, performing a train-test split to create
 
 ## Results
 The heatmap and the scatterplot matrix of the correlation coefficients between the the value of a home and features (bathrooms, sqft_living and sqft_living15, helps visualize the relationships between the variables. According to the correlation coefficients, sqft_living has the strongest linear relationship with price while the number of bathrooms is the lowest.
-<img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400">
+<br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
 ## Recommendations 
 The squarefootage of a home and number of bathrooms are the best predictors of a home's price in King County. If homeowners are able to, they should expand the square footage of their home and build additional bathrooms. 
