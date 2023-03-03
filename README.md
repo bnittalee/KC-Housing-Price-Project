@@ -1,4 +1,4 @@
-## King County Housing Prices: A Multiple Regression Analsis
+## King County Housing Prices: A Multiple Regression Analysis
 <img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/stephen-plopper-UmEYn_GYqFo-unsplash.jpg" width="1000" height="400">
 <b>Author:</b> Brittney Nitta-Lee 
 
