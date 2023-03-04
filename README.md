@@ -8,7 +8,7 @@ This analysis focuses on the King County House Sales data set to build a multipl
 ### Questions
 1. Which features are most highly correlated with price?
 2. Which feature has the strongest correlation with the value of a home?
-3. What combination of features is the best fit for a multiple regression model to predict house prices?
+3. Does grade or condition of a house contribute to the value of a home??
 
 ### Data
 The King County Housing Data Set includes information about the size, location, condition, and other features of houses in Washington's King County. The dataset and variable descriptions can be found on <a href ="https://www.kaggle.com/harlfoxem/housesalesprediction">Kaggle</a>.
@@ -21,7 +21,7 @@ The heatmap and the scatterplot matrix of the correlation coefficients between t
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
 ## Recommendations 
-The squarefootage of a home and number of bathrooms are the best predictors of a home's price in King County. If homeowners are able to, they should expand the square footage of their home and build additional bathrooms. 
+If homeowners are able to, they should expand the square footage of their home and buildadditional bathrooms. Another focus is the grade or construction quality of the home. Homeswith higher design quality have more value. And the condition of the home should have no signsof damage or repair. 
 
 ## Limitations and Next Steps
 There was a lot of preprocessing and variables we had to perform log transformations on variables to satisfy regression assumptions. Therefore, the model may not accurately predict a home's value. A future analysis could include looking at data in other counties and using an updated dataset. King County is also a huge county and it would be better to narrodown differen't areas within King County to get better results.
