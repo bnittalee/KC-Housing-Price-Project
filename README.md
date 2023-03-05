@@ -3,7 +3,7 @@
 <b>Author:</b> Brittney Nitta-Lee 
 
 ### Overview
-Compass Real Estate wants to host a class for Homeowners who are interested in selling their home. This analysis will be focusing on the King County House Sales dataset to find information on ways to increase the value of their home. 
+Compass Real Estate wants to host a class for homeowners who are interested in selling their home. This analysis will be focusing on the King County House Sales dataset to find information on ways to increase the value of their home. 
 
 ### Questions
 1. Which features are most highly correlated with price?
@@ -17,7 +17,7 @@ The King County Housing Data Set includes information about the size, location, 
 Methods included preprocessing the data, performing a train-test split to create a linear reagression models with price as the target variable.
 
 ## Results
-The heatmap and the scatterplot matrix of the correlation coefficients between the the value of a home and features (bathrooms, sqft_living and sqft_living15, helps visualize the relationships between the variables. According to the correlation coefficients, sqft_living has the strongest linear relationship with price while the number of bathrooms is the lowest.
+The heatmap and the scatterplot matrix of the correlation coefficients between the the value of a home and features (bathrooms, sqft_living and sqft_living15, helps visualize the correlation with price. According to the correlation coefficients, sqft_living has the strongest linear relationship with price while the number of bathrooms is the lowest.
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
 ## Recommendations 
