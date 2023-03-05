@@ -3,7 +3,7 @@
 <b>Author:</b> Brittney Nitta-Lee 
 
 ### Overview
-This analysis focuses on the King County House Sales data set to build a multiple regression model that can predict house prices for homeowners who are interested in selling their home. 
+Compass Real Estate wants to host a class for Homeowners who are interested in selling their home. This analysis will be focusing on the King County House Sales dataset to find information on ways to increase the value of their home. 
 
 ### Questions
 1. Which features are most highly correlated with price?
