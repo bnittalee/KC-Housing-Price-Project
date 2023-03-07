@@ -21,7 +21,11 @@ The heatmap and the scatterplot matrix of the correlation coefficients between t
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
 ## Recommendations 
-If homeowners are able to, they should expand the square footage of their home and buildadditional bathrooms. Another focus is the grade or construction quality of the home. Homes with higher design quality have more value. And the condition of the home should have no signsof damage or repair. 
+Here are a few recommendations for homeowners who want to sell their home. 
+1. Increase the square footage of your home 
+2. Build additional bathrooms 
+3. The building grade should be at least grade 10. Which means, homes of this quality generally have high quality features. Finish work is better and more design quality is seen in the floor plans. Generally have a larger square footage. 
+4. The condition of the home must be a 5, according to King County standards. All items well maintained, many having been overhauled and repaired as they have shown signs of wear, increasing the life expectancy and lowering the effective age with little deterioration or obsolescence evident with a high degree of utility.
 
 ## Limitations and Next Steps
 There was a lot of preprocessing and variables we had to perform log transformations on variables to satisfy regression assumptions. Therefore, the model may not accurately predict a home's value. A future analysis could include looking at data in other counties and using an updated dataset. King County is also a huge county and it would be better to narrodown differen't areas within King County to get better results.
