@@ -20,7 +20,7 @@ Methods included preprocessing the data, performing a train-test split to create
 The heatmap and the scatterplot matrix of the correlation coefficients between the the value of a home and features (bathrooms, sqft_living and sqft_living15, helps visualize the correlation with price. According to the correlation coefficients, sqft_living has the strongest linear relationship with price while the number of bathrooms is the lowest.
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
-The OLS Regression Result shows a R-squared value of 0.507. This was before the log transformation of my independent variables. Condition_3 and Condition_4 shows a negative correlation to price while bathrooms, sqft_living and sqft_living 15 have positive correlations. 
+The OLS Regression Result shows a R-squared value of 0.507. This was before the log transformation of my independent variables. Condition_3 and Condition_4 shows a negative correlation to price while bathrooms, sqft_living and sqft_living 15 have positive correlations. The RMSE is 0.38742367880763834 which means that, on average, the predicted values of your multiple linear regression model are off by approximately 0.387 units from the actual values. That's not bad at all. 
 
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/OLS-Regression-result-1.png" width="500" height="400"></br>
 
