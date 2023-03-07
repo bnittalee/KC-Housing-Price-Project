@@ -20,6 +20,14 @@ Methods included preprocessing the data, performing a train-test split to create
 The heatmap and the scatterplot matrix of the correlation coefficients between the the value of a home and features (bathrooms, sqft_living and sqft_living15, helps visualize the correlation with price. According to the correlation coefficients, sqft_living has the strongest linear relationship with price while the number of bathrooms is the lowest.
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
+The OLS Regression Result shows a R-squared value of 0.507. This was before the log transformation of my independent variables. Condition_3 and Condition_4 shows a negative correlation to price while bathrooms, sqft_living and sqft_living 15 have positive correlations. 
+
+<br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/OLS-Regression-result-1.png" width="500" height="400"></br>
+
+The OLS Regression Result for building grade and home condition has somewhat similar results. The R-squared shows th 50% of the variability in the price of the house can be explained by sqft_living, condition_5 and building grade 10 through 13. The RMSE is 0.371 which is similar to our previous model. The RMSE is also small which tells me the predicted home price is closer to the actual price of a home. 
+
+<br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/OLS-Regression-result-grade-condition.png" width="500" height="400"></br>
+
 ## Recommendations 
 Here are a few recommendations for homeowners who want to sell their home. 
 1. Increase the square footage of your home 
