@@ -32,3 +32,8 @@ There was a lot of preprocessing and variables we had to perform log transformat
 
 ### For more information
 For additional information, contact Brittney Nitta-Lee at bnittalee@gmail.com 
+
+### Repository Structure
+```
+ls
+```
