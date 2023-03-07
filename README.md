@@ -35,5 +35,12 @@ For additional information, contact Brittney Nitta-Lee at bnittalee@gmail.com
 
 ### Repository Structure
 ```
-ls
+├── .ipynb_checkpoints/
+├── Images
+├── PDFS
+├── .DS_Store
+├── .gitattributes
+├── Project_notebook.ipynb
+├── column_names.md
+└── kc_house_data.csv
 ```
