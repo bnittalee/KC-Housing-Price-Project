@@ -20,11 +20,35 @@ Methods included preprocessing the data, performing a train-test split to create
 The heatmap and the scatterplot matrix of the correlation coefficients between the the value of a home and features (bathrooms, sqft_living and sqft_living15, helps visualize the correlation with price. According to the correlation coefficients, sqft_living has the strongest linear relationship with price while the number of bathrooms is the lowest.
 <br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/heat-map.png" width="500" height="400"></br> 
 
+The OLS Regression Result shows a R-squared value of 0.507. This was before the log transformation of my independent variables. Condition_3 and Condition_4 shows a negative correlation to price while bathrooms, sqft_living and sqft_living 15 have positive correlations. The RMSE is 0.38742367880763834 which means that, on average, the predicted values of your multiple linear regression model are off by approximately 0.387 units from the actual values. That's not bad at all. 
+
+<br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/OLS-Regression-result-1.png" width="500" height="400"></br>
+
+The OLS Regression Result for building grade and home condition has somewhat similar results. The R-squared shows th 50% of the variability in the price of the house can be explained by sqft_living, condition_5 and building grade 10 through 13. The RMSE is 0.371 which is similar to our previous model. The RMSE is also small which tells me the predicted home price is closer to the actual price of a home. 
+
+<br><center><img src="https://github.com/bnittalee/KC-Housing-Price-Project/blob/main/Images/OLS-Regression-result-grade-condition.png" width="500" height="400"></br>
+
 ## Recommendations 
-If homeowners are able to, they should expand the square footage of their home and buildadditional bathrooms. Another focus is the grade or construction quality of the home. Homes with higher design quality have more value. And the condition of the home should have no signsof damage or repair. 
+Here are a few recommendations for homeowners who want to sell their home. 
+1. Increase the square footage of your home 
+2. Build additional bathrooms 
+3. The building grade should be at least grade 10. Which means, homes of this quality generally have high quality features. Finish work is better and more design quality is seen in the floor plans. Generally have a larger square footage. 
+4. The condition of the home must be a 5, according to King County standards. All items well maintained, many having been overhauled and repaired as they have shown signs of wear, increasing the life expectancy and lowering the effective age with little deterioration or obsolescence evident with a high degree of utility.
 
 ## Limitations and Next Steps
 There was a lot of preprocessing and variables we had to perform log transformations on variables to satisfy regression assumptions. Therefore, the model may not accurately predict a home's value. A future analysis could include looking at data in other counties and using an updated dataset. King County is also a huge county and it would be better to narrodown differen't areas within King County to get better results.
 
 ### For more information
 For additional information, contact Brittney Nitta-Lee at bnittalee@gmail.com 
+
+### Repository Structure
+```
+├── .ipynb_checkpoints/
+├── Images
+├── PDFS
+├── .DS_Store
+├── .gitattributes
+├── Project_notebook.ipynb
+├── column_names.md
+└── kc_house_data.csv
+```
